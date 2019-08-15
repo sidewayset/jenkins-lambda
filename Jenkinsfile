@@ -2,7 +2,7 @@ def bucket = 'set-lamba-fibo'
 def functionName = 'Fibonacci'
 def region = 'us-west-2'
 
-pipline {
+pipeline {
     agent none
     stages {
         stage('Checkout'){
